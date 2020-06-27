@@ -5,7 +5,7 @@ env = gym.make('LunarLanderContinuous-v2')
 
 LunarLander = ActorNN(env.observation_space.shape[0], env.action_space.shape[0], [256, 128])
 # LunarLander.load_state_dict(torch.load("ActorEpisode100.pth"))
-LunarLander.load_state_dict(torch.load("BestActor.pth"))
+LunarLander.load_state_dict(torch.load("LunarBestActor.pth"))
 
 noise = OUNoise(env.action_space)
 state = env.reset()
