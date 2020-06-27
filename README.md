@@ -5,7 +5,6 @@
 
 An agent has been trained with DDPG the result of the reward function is as following:
 
-<img src="results/.png">
 
 
 
@@ -13,11 +12,11 @@ An agent has been trained with DDPG the result of the reward function is as foll
 
 An agent has been trained with DDPG the result of the reward function is as following:
 
-<img src="results/.png">
+<img src="ResultFigures/MountainCarContinuous.jpeg">
+
 
 Reward is defined as:
-= 100 to achieve Flag
-= - action^(2) * 0.1
+= 100 to achieve Flag o.w. = - action^(2) * 0.1
 
 
  
